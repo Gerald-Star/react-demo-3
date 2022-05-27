@@ -1,0 +1,51 @@
+
+main {
+height: 100vh;
+/* max-width:200px; */
+/* background-color: rgb(83, 87, 87); */
+padding: 57px 27px;
+color: white;
+background-image: url(./images/react-image.png);
+background-repeat: no-repeat;
+background-position-x: right;
+background-position-y: 25%;
+
+
+}
+
+/* background shorthand
+ background-position: right 25%; 
+background: url(./images/react-image.png), no-repeat, right, 25%;
+
+*/
+
+body {
+    /* color: rgb(83, 87, 87);  */
+    background-color: grey;
+}
+
+.main--title {
+margin-left: 25px;
+font-size: 30px;
+letter-spacing: -0.05em;
+font-family: Inter;
+}
+
+.main--facts {
+    margin-top: 45px;
+    max-width: 400px;
+    font-family: Inter;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+   
+}
+
+/* ::marker pseudo element selector */
+
+.main--facts > li::marker {
+    font-size: 1.5rem;
+    color: #61dafb;
+}

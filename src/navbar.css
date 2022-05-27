@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #122212;
+    padding: 25px 20px;
+    color: aliceblue;
+}
+
+.nav--icon {
+    width: 35px;
+    margin: 5px;
+}
+
+.nav--logo_title {
+    margin-right: auto;
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    font-weight: 600;
+}
